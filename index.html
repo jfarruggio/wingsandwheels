@@ -50,7 +50,7 @@
 				<!--logo-->
 				<div class="d_table_cell half_column v_align_m">
 					<a href="index.html">
-						<img src="images/logo_side.png" alt="">
+						<img src="images/logo.jpg" alt="">
 					</a>
 				</div>
 				<!--close sidemenu button-->
@@ -60,7 +60,14 @@
 					</button>
 				</div>
 			</header>
-
+			<hr class="divider_type_4 m_bottom_20">
+			<!--searchform-->
+			<form role="search" class="m_bottom_20 relative type_2">
+				<input type="text" placeholder="Search" class="r_corners fw_light bg_light w_full">
+				<button class="color_grey_light color_purple_hover tr_all">
+					<i class="icon-search"></i>
+				</button>
+			</form>
 			<hr class="divider_type_4 m_bottom_25">
 			<!--main menu-->
 			<nav>
@@ -363,7 +370,10 @@
 		<!--layout-->
 		<div class="wide_layout bg_light">
 			<!--header markup-->
-			<header role="banner" class="relative">
+			<header role="banner" class="relative type_2">
+				<span class="gradient_line"></span>
+				
+				<hr class="m_xs_bottom_15">
 				<!--header bottom part-->
 				<section class="header_bottom_part bg_light">
 					<div class="container">
@@ -396,11 +406,29 @@
 									<a class="color_dark fs_large relative r_xs_corners" href="index.html">Home
 									</a>
 								</li>
+								<li class="container3d relative f_xs_none m_xs_bottom_5">
+									<a class="color_dark fs_large relative r_xs_corners" href="#event">Event Info
+									</a>
+								</li>
+								<li class=" container3d relative f_xs_none m_xs_bottom_5">
+									<a class="color_dark fs_large relative r_xs_corners" href="#activities">Activities
+									</a>
+								</li>
+								<li class=" container3d relative f_xs_none m_xs_bottom_5">
+									<a class="color_dark fs_large relative r_xs_corners" href="#gallery">Gallery
+									</a>
+								</li>
+								<li class=" container3d relative f_xs_none m_xs_bottom_5">
+									<a class="color_dark fs_large relative r_xs_corners" href="#contact">Contact
+									</a>
+								</li>
 							</ul>
 						</nav>
 					</div>
 				</section>
 			</header>
+
+
 			<section class="coming_soon type_2 color_light">
 				<div class="container">
 					<div class="row">
@@ -416,15 +444,16 @@
 					</div>
 					
 				</div>
+				<br>
 				<hr>
 			</section>
 			
 			<!--content-->
 			<!-- Location -->
-			<div class="container">
+			<div class="container" id="event" >
 				<div class="row">
 					<div class="col-md-6">
-						<h3 class="color_dark fw_light m_bottom_15 heading_1">Hosted at Kenosha Regional Airport</h3>
+						<h3 class="color_dark fw_light m_bottom_15 heading_1" >Hosted at Kenosha Regional Airport</h3>
 						
 						
 							<p>Wings &amp; Wheels is a family event located at Kenosha Regional Airport in Kenosha, Wisconsin. Bring your friends and family out on July 6th, 2014 from 8:00am to 4:00pm to enjoy the aircraft, automobiles, and food! There is free admittance and parking for visitors.</p>
@@ -443,15 +472,54 @@
 					</div>
 					<div class="col-md-5 col-md-offset-1">
 						<iframe class="w_full" height="300" scrolling="no" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=9900+52nd+Street,+Kenosha,+WI&amp;aq=2&amp;oq=9900+52nd+Street+&amp;sll=42.589346,-87.928337&amp;sspn=0.006832,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=9900+52nd+St,+Kenosha,+Wisconsin+53144&amp;t=m&amp;ll=42.589362,-87.928305&amp;spn=0.037914,0.081453&amp;z=14&amp;iwloc=A&amp;output=embed">
-			</iframe>
+						</iframe>
 						 
 					</div>
 				</div>
 				<br>
+				<hr>
 			</div>
 			
+			<section class="section_offset m_bottom_15 p_bottom_0" id="activities">
+				<div class="container">
+					<h3 class="color_dark fw_light m_bottom_15 heading_1 t_align_c">Featured Activities</h3>
+					<!-- <p class="m_bottom_35 heading_2 t_align_c">Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. </p> -->
+					<div class="row">
+						<div class="col-sm-3 m_xs_bottom_30 t_xs_align_c">
+							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
+								<img src="images/plane_lesson.jpg" alt="">
+							</div>
+							<h4 class="m_bottom_10 t_xs_align_l"><a href="#" class="color_dark tr_all">Be the pilot of a small aircraft.</a></h4>
+							<p class="t_xs_align_l">We have partnered with Gateway Technical College to bring you the opertuinity to pilot a small aircraft for approximately 20 minutes. Wisconsin resident course fee is $106. <a href="https://docs.google.com/a/gtc.edu/presentation/d/1HU1LVpwKc3styaCyf51kw0R4Fh5dRrtLPnX3n_kvugY/present#slide=id.gc597646a_00">Pre-registration is required.</a></p>
+						</div>
+						<div class="col-sm-3 m_xs_bottom_30 t_xs_align_c">
+							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
+								<img src="images/helicopter.jpg" alt="">
+							</div>
+							<h4 class="m_bottom_10 t_xs_align_l"><a href="#" class="color_dark tr_all">Helicopter Rides</a></h4>
+							<p class="t_xs_align_l">Helicopter rides will run from 8am - 5pm and costs $35/person.</p>
+						</div>
+						<div class="col-sm-3 m_xs_bottom_30 t_xs_align_c">
+							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
+								<img src="images/warbird.jpg" alt="">
+							</div>
+							<h4 class="m_bottom_10 t_xs_align_l"><a href="#" class="color_dark tr_all">Parade of Flight</a></h4>
+							<p class="t_xs_align_l">All types of Aircraft, including WWII Warbirds, will be on display and flying throughout the day. Featuring Chuck Greenhill's Pearl Harbor/Pacific Warbid Legendary Grumman Duck.</p>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-4 t_xs_align_c">
+							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
+								<a href="https://www.youtube.com/watch?v=FkncqF7rO1I" target="_blank"><img src="images/youtube_vid.jpg" alt=""></a>
+							</div>
+							<h4 class="m_bottom_10 t_xs_align_l"><a href="#" class="color_dark tr_all">Free Aircraft Simulation</a></h4>
+							<p class="t_xs_align_l">Take a spin in an aircraft of your choice with the Aircraft Simulation station created by Andrew Howlett from <a href="http://www.dmiwebsite.com" target="_blank">DMI digital media imaging</a></p>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
 			<!--Gallery-->
-			<section class="section_offset_3 bg_light_2 relative">
+			<section class="section_offset_3 bg_light_2 relative" id="gallery">
 				<div class="container">
 					<div class="row">
 						<p class="static_head_title_1 lh_ex_small color_dark fw_light ls_medium m_left_15 m_bottom_15 ">Gallery</p>						
@@ -676,42 +744,29 @@
 					<i class="icon-right-open-big"></i>
 				</button>
 			</section>
+			<hr class="divider_type_2">
 
-			<section class="section_offset m_bottom_15 p_bottom_0">
+			<!--banner-->
+			<section class="section_offset bg_light_1">
 				<div class="container">
-					<h3 class="color_dark fw_light m_bottom_15 heading_1 t_align_c">Featured Activities</h3>
-					<!-- <p class="m_bottom_35 heading_2 t_align_c">Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. </p> -->
 					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 m_xs_bottom_30 t_xs_align_c">
-							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
-								<img src="images/plane_lesson.jpg" alt="">
-							</div>
-							<h4 class="m_bottom_10 t_xs_align_l"><a href="#" class="color_dark tr_all">Be the pilot of a small aircraft.</a></h4>
-							<p class="t_xs_align_l">We have partnered with Gateway Technical College to bring you the opertuinity to pilot a small aircraft for approximately 20 minutes. Wisconsin resident course fee is $106. <a href="https://docs.google.com/a/gtc.edu/presentation/d/1HU1LVpwKc3styaCyf51kw0R4Fh5dRrtLPnX3n_kvugY/present#slide=id.gc597646a_00">Pre-registration is required.</a></p>
+						<div class="col-lg-8 col-md-9 col-sm-8 col-lg-offset-1" data-appear-animation="fadeInUp">
+							<h3 class="color_dark fw_light m_bottom_15" style="font-family:arial;"><span class="color_blue" style="font-weight:bold;">DMI</span> digital media imaging</h3>
+							<p class="heading_4">Digital Media Imaging is honored to work with the Experimental Aircraft Association and The City of Kenosha in presenting Wings &amp; Wheels of Kenosha 2014. What can DMI do for your business or event?</p>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 m_xs_bottom_30 t_xs_align_c">
-							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
-								<img src="images/helicopter.jpg" alt="">
-							</div>
-							<h4 class="m_bottom_10 t_xs_align_l"><a href="#" class="color_dark tr_all">Helicopter Rides</a></h4>
-							<p class="t_xs_align_l">Helicopter rides will run from 8am - 5pm and costs $35/person.</p>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 t_xs_align_c">
-							<div class="m_bottom_20 ">
-								<iframe id="youtube_vid" src="http://www.youtube.com/embed/FkncqF7rO1I?rel=0" frameborder="0" allowfullscreen></iframe>
-							</div>
-							<h4 class="m_bottom_10 t_xs_align_l"><a href="#" class="color_dark tr_all">Free Aircraft Simulation</a></h4>
-							<p class="t_xs_align_l">Take a spin in an aircraft of your choice with the Aircraft Simulation station created by Andrew Howlett from <a href="http://www.dmiwebsite.com" target="_blank">DMI Digital Media Imaging</a></p>
+						<div class="col-lg-3 col-md-3 col-sm-4" data-appear-animation="fadeInUp" data-appear-animation-delay="150">
+							<a href="#" id="get_started" class="button_type_4 r_corners d_inline_b color_blue tt_uppercase fs_large m_top_5 m_sm_top_25 tr_all">Get a free quote</a>
 						</div>
 					</div>
 				</div>
 			</section>
+			
 
-			<!--Sponsers-->
-			<section class="section_offset_3 bg_light_2 relative">
+			<!--Sponsors-->
+			<section class="section_offset_3 bg_light_2 relative" id="sponsors">
 				<div class="container">
 					<div class="row">
-						<p class="static_head_title_1 lh_ex_small color_dark fw_light ls_medium m_left_15 m_bottom_15 ">Sponsers</p>						
+						<p class="static_head_title_1 lh_ex_small color_dark fw_light ls_medium m_left_15 m_bottom_15 ">Sponsors</p>						
 						<div class="owl-carousel" data-plugin-options='{"itemsCustom": [[992,4],[768,3],[450,1],[10,1]],"autoPlay":true,"singleItem" : false}' data-nav="lp_nav_">
 							<figure class="col-lg-12 col-md-12 col-sm-12" data-appear-animation="fadeInDown">
 								<!--image-->
@@ -767,8 +822,11 @@
 					<i class="icon-right-open-big"></i>
 				</button>
 			</section>
+			
 
-			<section class="section_offset m_bottom_15 p_bottom_0">
+			
+
+			<section class="section_offset m_bottom_15 p_bottom_0" id="contact">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12  m_xs_bottom_30">
@@ -876,5 +934,24 @@
 		<!--Theme Initializer-->
 		<script src="js/theme.plugins.js"></script>
 		<script src="js/theme.js"></script>
+		<script type="text/javascript">
+        $(document).ready(function() {
+            $('a[href*=#]').each(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+            && location.hostname == this.hostname
+            && this.hash.replace(/#/,'') ) {
+              var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+              var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+               if ($target) {
+                 var targetOffset = $target.offset().top -55;
+                 $(this).click(function() {
+                   $('html, body').animate({scrollTop: targetOffset}, 400);
+                   return false;
+                 });
+              }
+            }
+          });
+        });
+    </script>
 	</body>
 </html>

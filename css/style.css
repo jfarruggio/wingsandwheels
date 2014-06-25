@@ -697,7 +697,7 @@ input:not([type="submit"]).success,
 .color_blue,
 .color_blue_hover:hover,
 [class*="button_type_"].color_blue:not(.transparent):hover{
-	color:#55c0db;
+	color:#2f28e4;
 }
 .main_menu > li > a,
 #menu_button.color_blue,
