@@ -61,14 +61,14 @@
 	background:#41bedd;
 	color:#fff;
 }
-::-webkit-scrollbar{
+/*::-webkit-scrollbar{
 	width:10px;
 	background:#f7f9f9;
 }
 ::-webkit-scrollbar-thumb{
 	background:-webkit-gradient(linear,left top,right bottom,from(#70269f),to(#35eef6));
 	background:linear-gradient(top,#70269f,#35eef6);
-}
+}*/
 ::-webkit-input-placeholder{
 	-webkit-transition:text-indent .5s ease,color .5s ease;
 	color:#899096;
