@@ -41,6 +41,14 @@
 		</script>
 	</head>
 	<body class="sticky_menu">
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=125740726170&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 		<!--side menu-->
 		<button id="open_side_menu" class="icon_wrap_size_2 circle color_black">
 			<i class="icon-menu"></i>
@@ -386,8 +394,8 @@
 							</div>
 							<div class="col-lg-8 col-md-6 col-sm-8 d_table_cell d_xs_block p_xs_hr_0 v_align_m f_none t_align_r t_xs_align_c">
 								<!--advertising area-->
-	 							<div class="advertising_area type_4 d_inline_b t_align_c bg_light_2 color_grey m_top_10 m_bottom_10 m_xs_bottom_0">
-									<a href="http://dmiwebsite.com/"><img src="images/ad.png" class="img-responsive"></a>
+	 							<div class="advertising_area type_4 d_inline_b t_align_c color_grey m_top_10 m_bottom_10 m_xs_bottom_0">
+									<a href="http://dmiwebsite.com/" class="d_inline_m"><img src="images/ad.jpg" class="img-responsive"></a>
 								</div>
 							</div>
 						</div>
@@ -433,7 +441,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-7 m_sm_bottom_30">
-							<img class="img-responsive" src="images/plane_vet.png"></img>
+							<img class="img-responsive" src="images/top_img.jpg"></img>
 						</div>
 						<div class="col-md-5 mini_coming_soon">
 							<p class="static_head_title_1 lh_ex_small color_dark fw_light tt_uppercase ls_medium m_bottom_15 "><span class="sonic">Wings &amp; Wheels</span><br>of Kenosha</p>
@@ -481,37 +489,52 @@
 			</div>
 			
 			<section class="section_offset m_bottom_15 p_bottom_0" id="activities">
-				<div class="container">
+				<div class="container ">
 					<h3 class="color_dark fw_light m_bottom_15 heading_1 t_align_c">Featured Activities</h3>
 					<!-- <p class="m_bottom_35 heading_2 t_align_c">Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. </p> -->
 					<div class="row">
-						<div class="col-sm-3 m_xs_bottom_30 t_xs_align_c">
-							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
-								<img src="images/plane_lesson.jpg" alt="">
-							</div>
-							<h4 class="m_bottom_10 t_xs_align_l"><a href="#" class="color_dark tr_all">Be the pilot of a small aircraft.</a></h4>
-							<p class="t_xs_align_l">We have partnered with Gateway Technical College to bring you the opertuinity to pilot a small aircraft for approximately 20 minutes. Wisconsin resident course fee is $66.61<br> <a href="https://docs.google.com/a/gtc.edu/presentation/d/1HU1LVpwKc3styaCyf51kw0R4Fh5dRrtLPnX3n_kvugY/present#slide=id.gc597646a_00">Pre-registration is required.</a></p>
-						</div>
-						<div class="col-sm-3 m_xs_bottom_30 t_xs_align_c">
-							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
-								<img src="images/helicopter.jpg" alt="">
-							</div>
-							<h4 class="m_bottom_10 t_xs_align_l"><a href="#" class="color_dark tr_all">Helicopter Rides</a></h4>
-							<p class="t_xs_align_l">Helicopter rides will run from 8am - 5pm and costs $35/person.</p>
-						</div>
-						<div class="col-sm-3 m_xs_bottom_30 t_xs_align_c">
+						
+						<div class="col-sm-6 m_xs_bottom_30 t_xs_align_c">
 							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
 								<img src="images/warbird.jpg" alt="">
 							</div>
-							<h4 class="m_bottom_10 t_xs_align_l"><a href="#" class="color_dark tr_all">Parade of Flight</a></h4>
+							<h4 class="m_bottom_10 t_xs_align_l">Parade of Flight</h4>
 							<p class="t_xs_align_l">All types of Aircraft, including WWII Warbirds, will be on display and flying throughout the day. Featuring Chuck Greenhill's Pearl Harbor/Pacific Warbid Legendary Grumman Duck.</p>
 						</div>
-						<div class="col-lg-3 col-md-4 col-sm-4 t_xs_align_c">
+						<div class="col-sm-6 t_xs_align_c">
 							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
-								<a href="https://www.youtube.com/watch?v=FkncqF7rO1I" target="_blank"><img src="images/youtube_vid.jpg" alt=""></a>
+								<img src="images/flight_sim.jpg" alt="">
 							</div>
-							<h4 class="m_bottom_10 t_xs_align_l"><a href="#" class="color_dark tr_all">Free Aircraft Simulation</a></h4>
+							<h4 class="m_bottom_10 t_xs_align_l">Free Aircraft Simulation</h4>
 							<p class="t_xs_align_l">Take a spin in an aircraft of your choice with the Aircraft Simulation station created by Andrew Howlett from <a href="http://www.dmiwebsite.com" target="_blank">DMI digital media imaging</a></p>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-6 m_xs_bottom_30 t_xs_align_c">
+							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
+								<img src="images/plane_lesson.jpg" alt="">
+							</div>
+							<h4 class="m_bottom_10 t_xs_align_l">Be the pilot of a small aircraft.</h4>
+							<p class="t_xs_align_l">
+							<ul>
+								<li>
+									<i class="icon-angle-right"></i> You get to fly the airplane!
+								</li>
+								<li><i class="icon-angle-right"></i> You are at the controls for approx. 20 minutes.</li>
+								<li><i class="icon-angle-right"></i> Get a pilot logbook with your flight time recorded</li>
+								<li><i class="icon-angle-right"></i> Wisconsin resident course fee $66.61</li>
+							</ul><a href="https://docs.google.com/a/gtc.edu/presentation/d/1HU1LVpwKc3styaCyf51kw0R4Fh5dRrtLPnX3n_kvugY/present#slide=id.gc597646a_00">Pre-registration is required.</a></p>
+						</div>
+
+						<div class="col-sm-6 m_xs_bottom_30 t_xs_align_c">
+							<div class="r_corners wrapper m_bottom_20 d_xs_inline_b d_mxs_block">
+								<img src="images/helicopter.jpg" alt="">
+							</div>
+							<h4 class="m_bottom_10 t_xs_align_l">Helicopter Rides</h4>
+							<p class="t_xs_align_l">Helicopter rides will run from 8am - 5pm and costs $35/person.</p>
+							<p class="t_xs_align_l">Like Digital Media Imaging to win a chance at 1 of 4 free helicopter rides.</p>
+							<div class="fb-like" data-href="https://www.facebook.com/digitalmediaimaging" data-width="400" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
 						</div>
 
 					</div>
@@ -735,6 +758,7 @@
 							</figure>
 						</div>
 					</div>
+					<a href="https://www.google.com/maps/preview?ll=42.589384,-87.928169&z=14&t=m&hl=en-US&gl=US&mapclient=embed&q=9900+52nd+St+Kenosha,+WI+53144" target="_blank" class="button_type_2 color_dark r_corners tr_all color_blue_hover d_inline_m fs_medium t_md_align_c w_break">View Gallery Album</a>
 				</div>
 				<!--carousel nav-->
 				<button class="icon_wrap_size_4 circle color_grey_light tr_all color_blue_hover lp_nav_prev d_md_none" data-appear-animation="fadeIn">
@@ -875,6 +899,8 @@
 										<li>BBQ Lunch: 11am - 2pm</li>
 										<li>Car Show: 9am - 4pm</li>
 										<li>Helicopter Rides: 9am - 5pm. $35/person</li>
+										<li>Like Digital Media Imaging to win a chance at 1 of 4 free helicopter rides.</li>
+										<li><div class="fb-like" data-href="https://www.facebook.com/digitalmediaimaging" data-width="400" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></li>
 									</ul>
 								</li>
 							</ul>
@@ -895,7 +921,6 @@
 											<a href="https://www.google.com/maps/preview?ll=42.589384,-87.928169&z=14&t=m&hl=en-US&gl=US&mapclient=embed&q=9900+52nd+St+Kenosha,+WI+53144" target="_blank" class="button_type_2 color_dark r_corners tr_all color_blue_hover d_inline_m fs_medium t_md_align_c w_break">Open in Google Maps</a>
 										</li>
 									</ul>
-
 								</li>
 							</ul>
 							</div>

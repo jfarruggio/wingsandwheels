@@ -38,10 +38,9 @@
 	font-family: sonic;
 }
 
-#youtube_vid  {
-		width:370px;
-		height: 275px;
-	}
+div.fb-like iframe {
+	z-index: 149;
+}
 
 /* -----------------------------------
 
