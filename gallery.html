@@ -1,0 +1,673 @@
+<!doctype html>
+<!--[if IE 9]><html class="ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+	<head>
+		<title>Wings and Wheels</title>
+		<!--meta info-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="author" content="">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav.ico">
+		<!--web fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
+
+		<!--libs css-->
+		<link rel="stylesheet" type="text/css" media="all" href="plugins/owl-carousel/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" media="all" href="plugins/owl-carousel/owl.transitions.css">
+		<!--theme css-->
+		<link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="css/theme-animate.css">
+		<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+		<!--head libs-->
+		<script src="js/jquery-2.1.0.min.js"></script>
+		<script src="plugins/jquery.queryloader2.min.js"></script>
+		<script>
+			$('html').addClass('d_none');
+			$(document).ready(function(){
+				$('html').show();
+				$("body").queryLoader2({
+					backgroundColor: '#fff',
+					barColor : '#35eef6',
+					barHeight: 4,
+					percentage:true,
+					deepSearch:true,
+					minimumTime:1000
+				});
+			});
+		</script>
+	</head>
+	<body class="sticky_menu">
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=125740726170&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<!--side menu-->
+		<button id="open_side_menu" class="icon_wrap_size_2 circle color_black">
+			<i class="icon-menu"></i>
+		</button>
+		<div id="side_menu">
+			<header class="m_bottom_30 d_table w_full">
+				<!--logo-->
+				<div class="d_table_cell half_column v_align_m">
+					<a href="index.html">
+						<img src="images/logo.jpg" alt="">
+					</a>
+				</div>
+				<!--close sidemenu button-->
+				<div class="d_table_cell half_column v_align_m t_align_r">
+					<button class="icon_wrap_size_2 circle color_grey_light_2 d_inline_m" id="close_side_menu">
+						<i class="icon-cancel"></i>
+					</button>
+				</div>
+			</header>
+			<hr class="divider_type_4 m_bottom_20">
+			<!--searchform-->
+			<form role="search" class="m_bottom_20 relative type_2">
+				<input type="text" placeholder="Search" class="r_corners fw_light bg_light w_full">
+				<button class="color_grey_light color_purple_hover tr_all">
+					<i class="icon-search"></i>
+				</button>
+			</form>
+			<hr class="divider_type_4 m_bottom_25">
+			<!--main menu-->
+			<nav>
+				
+			</nav>
+		</div>
+		<!--layout-->
+		<div class="wide_layout bg_light">
+			<!--header markup-->
+			<header role="banner" class="relative type_2">
+				<span class="gradient_line"></span>
+				
+				<hr class="m_xs_bottom_15">
+				<!--header bottom part-->
+				<section class="header_bottom_part bg_light">
+					<div class="container">
+						<!--logo-->
+						<div class="d_table w_full d_xs_block t_xs_align_c">
+							<div class="col-lg-4 col-md-4 col-sm-4 d_table_cell d_xs_block p_xs_hr_0 v_align_m f_none m_xs_bottom_10">
+								<a href="index.html" class="d_inline_m">
+									<img src="images/logo.png" alt="">
+								</a>
+							</div>
+							<div class="col-lg-8 col-md-6 col-sm-8 d_table_cell d_xs_block p_xs_hr_0 v_align_m f_none t_align_r t_xs_align_c">
+								<!--advertising area-->
+	 							<div class="advertising_area type_4 d_inline_b t_align_c color_grey m_top_10 m_bottom_10 m_xs_bottom_0">
+									<a href="http://dmiwebsite.com/" class="d_inline_m"><img src="images/ad.jpg" class="img-responsive"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<hr class="d_xs_none">
+				<section class="sticky_part bg_light shadow_light">
+					<div class="container clearfix relative">
+						<!--main navigation-->
+						<button id="menu_button" class="r_corners tr_all color_blue db_centered m_bottom_20 d_none d_xs_block">
+							<i class="icon-menu"></i>
+						</button>
+						<nav role="navigation" class="d_inline_m f_left f_xs_none d_xs_none m_xs_right_0 m_right_15 m_sm_right_5 t_align_l m_xs_bottom_15">
+							<ul class="hr_list main_menu type_2 fw_light">
+								<li class="container3d relative f_xs_none m_xs_bottom_5">
+									<a class="color_dark fs_large relative r_xs_corners" href="index.html">Home
+									</a>
+								</li>
+								<li class="container3d relative f_xs_none m_xs_bottom_5">
+									<a class="color_dark fs_large relative r_xs_corners" href="index.html#event">Event Info
+									</a>
+								</li>
+								<li class=" container3d relative f_xs_none m_xs_bottom_5">
+									<a class="color_dark fs_large relative r_xs_corners" href="index.html#activities">Activities
+									</a>
+								</li>
+								<li class=" container3d relative f_xs_none m_xs_bottom_5">
+									<a class="color_dark fs_large relative r_xs_corners" href="index.html#gallery">Gallery
+									</a>
+								</li>
+								<li class=" container3d relative f_xs_none m_xs_bottom_5">
+									<a class="color_dark fs_large relative r_xs_corners" href="index.html#contact">Contact
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</section>
+			</header>
+
+			<section class="section_offset m_bottom_15 p_bottom_0" id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/1.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/1.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/cars/1.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/cars/1.jpg" data-group="shortcodes" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/2.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/2.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/cars/1.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/cars/2.jpg" data-group="shortcodes" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/3.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/3.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/cars/3.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/cars/3.jpg" data-group="shortcodes" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/4.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/4.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/5.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/5.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/cars/5.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/cars/5.jpg" data-group="shortcodes" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/6.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/6.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/cars/6.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/cars/6.jpg" data-group="shortcodes" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/7.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/7.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/cars/7.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/cars/7.jpg" data-group="shortcodes" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						 <div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/8.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/8.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/cars/8.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/cars/8.jpg" data-group="shortcodes" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/9.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/9.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/cars/9.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/cars/9.jpg" data-group="shortcodes" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/10.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/10.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/cars/10.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/cars/10.jpg" data-group="shortcodes" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/11.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/11.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/cars/11.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/cars/11.jpg" data-group="shortcodes" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/12.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/12.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/cars/12.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/cars/12.jpg" data-group="shortcodes" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/13.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/13.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/14.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/14.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/15.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/15.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/16.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/16.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/17.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/17.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/18.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/18.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/19.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/19.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/21.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/21.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/22.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/22.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/23.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/23.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/24.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/24.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/25.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/25.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/26.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/26.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/27.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/27.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 m_bottom_23 t_xs_align_c">
+							<div class="popup_wrap relative r_corners wrapper d_xs_inline_b" style="width: auto;">
+								<img src="images/gallery/planes/28.jpg" alt="">
+								<div class="popup_buttons tr_all_long">
+									<a href="images/gallery/planes/28.jpg" data-group="shortcodes" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+										<i class="icon-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+			<section class="section_offset m_bottom_15 p_bottom_0" id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12  m_xs_bottom_30">
+							<h3 class="color_dark t_align_c fw_light m_bottom_15 heading_1">Have a question?</h3>
+							<form method="post" id="contactform" action="emailform.php">
+								<ul>
+									<li class="row m_bottom_10">
+										<div class="col-lg-6 col-md-6 col-sm-6 w_xs_full m_xs_bottom_10">
+											<input ype="text" required name="name" placeholder="Name*"  class="w_full r_corners fw_light">
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 w_xs_full">
+											<input type="email" required name="email" placeholder="Email*" class="w_full r_corners fw_light">
+										</div>
+									</li>
+									<li class="m_bottom_5">
+										<textarea class="w_full r_corners fw_light height_3" rows="8" required name="comments" placeholder="Message*" ></textarea>
+									</li>
+									<li class="m_bottom_10">
+										<button type="submit" value="submit" class="button_type_5 color_blue transparent r_corners fs_medium tr_all m_right_10 m_sm_bottom_10">Submit</button>
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr class="divider_type_2">
+			<!--footer-->
+			<footer role="contentinfo" class="bg_light_3" id="#footer_1">
+				<!--top part-->
+				<section class="footer_top_part">
+					<div class="container">
+						<div class="row">
+							<!--about us-->
+							<div class="col-lg-4 col-md-4 col-sm-4 fw_light m_bottom_30">
+								<h5 class="color_dark m_bottom_20">Event Description</h5>
+								<p>Wings &amp; Wheels is a family event located at Kenosha Regional Airport in Kenosha, Wisconsin. Bring your friends and family out on July 6th, 2014 from 8:00am to 4:00pm to enjoy the aircraft, automobiles, and food! There is free admittance and parking for visitors.</p>
+							</div>
+
+							<div class="col-lg-4 col-md-4 col-sm-4 fw_light m_bottom_30">
+								<ul class="col-sm-12 m_xs_bottom_30 ">
+								<li class="m_bottom_8 fw_light">
+									<h5 class="color_dark m_bottom_20">Event Schedule</h5>
+									<ul>
+										<li>Pancake Breakfast: 8am - 11am</li>
+										<li>BBQ Lunch: 11am - 2pm</li>
+										<li>Car Show: 9am - 4pm</li>
+										<li>Helicopter Rides: 9am - 5pm. $35/person</li>
+									</ul>
+								</li>
+							</ul>
+							</div>
+
+							<div class="col-lg-4 col-md-4 col-sm-4 fw_light m_bottom_30">
+								<ul class="col-sm-12 m_xs_bottom_30 ">
+								<li class="m_bottom_8 fw_light">
+									<h5 class="color_dark m_bottom_20">Event Location</h5>
+									<ul class="">
+										<li class="m_bottom_15 fw_light relative">
+											<div class="icon_wrap_size_1 color_blue circle f_left">
+												<i class="icon-location"></i>
+											</div>
+											 9900 52nd Street Kenosha, WI 53144
+										</li>
+										<li>
+											<a href="https://www.google.com/maps/preview?ll=42.589384,-87.928169&z=14&t=m&hl=en-US&gl=US&mapclient=embed&q=9900+52nd+St+Kenosha,+WI+53144" target="_blank" class="button_type_2 color_dark r_corners tr_all color_blue_hover d_inline_m fs_medium t_md_align_c w_break">Open in Google Maps</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							</div>
+						
+						</div>
+					</div>
+				</section>
+				<!--bottom part-->
+				<section class="footer_bottom_part t_align_c color_grey bg_light_4 fw_light">
+					<p>Site designed by <a href="http://www.dmiwebsite.com" target="_blank">Digital Media Imaging</a></p>
+				</section>
+			</footer>
+		</div>
+		<!--back to top button-->
+		<button id="back_to_top" class="circle icon_wrap_size_2 color_blue_hover color_grey_light_4 tr_all d_md_none">
+			<i class="icon-angle-up fs_large"></i>
+		</button>
+
+		<!--Libs-->
+		<script src="plugins/jquery.appear.js"></script>
+		<script src="plugins/afterresize.min.js"></script>
+		<script src="plugins/jquery.plugin.min.js"></script>
+		<script src="plugins/jquery.countdown.min.js"></script>
+		<script src="plugins/jquery.easing.1.3.js"></script>
+		
+		
+		<script src="plugins/twitter/jquery.tweet.min.js"></script>
+		<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+		
+
+		<!--Theme Initializer-->
+		<script src="js/theme.plugins.js"></script>
+		<script src="js/theme.js"></script>
+	</body>
+</html>
